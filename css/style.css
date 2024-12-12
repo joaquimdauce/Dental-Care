@@ -1,0 +1,262 @@
+
+*{  margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+html{
+    flex-wrap: wrap;
+    height: 1200px;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.597);
+    justify-content: space-between;
+    padding: 0 4%;
+    box-shadow: 1px 3px 4px rgb(79, 213, 237);
+    width: 100%;
+    position: fixed;
+ 
+
+}
+
+.logotipo{
+    width: 250px;
+    cursor: pointer;
+    color: azure;
+    text-align: center;
+    
+  
+}
+
+
+.logotipo p{
+  font-size: 12px;
+  text-align: center;
+  
+}
+
+
+.menu_navegacao{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    box-shadow: 3px 5px 7px black;
+
+}
+
+.menu_navegacao :hover{
+    background-color: rgba(44, 43, 43, 0.401);
+    border-radius: 5px;
+    color: cyan;
+     
+}
+
+.menu_navegacao a{
+    text-decoration: none;
+    color: rgb(237, 245, 238);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.inicio{
+    background-color: rgba(7, 236, 68, 0.571);
+    box-shadow: 3px 5px 7px black;
+    border-radius: 10px;
+    
+}
+
+
+.conteudos-container{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/ambiente.png);
+    padding-top: 80px;
+}
+
+.h1{
+    color: rgb(4, 58, 151);
+    padding-top: 100px;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.whatsap_contanier{
+display: flex;
+justify-content: center;
+
+}
+
+.bi-whatsapp{
+
+    cursor: pointer;
+    box-shadow: 2px 5px 4px rgba(255, 200, 0, 0.673);
+}
+
+
+
+.h2_consulta{
+    color: rgb(247, 218, 33);
+    font-weight: bold;
+    padding-left: 5px;
+    box-shadow: 3px 5px 7px black;
+    font-size: 25px;
+    
+}
+
+
+.servicos1{
+    display: flex;
+    float: left;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: rgb(237, 244, 244);
+    width: 100%;
+    gap: 200px;
+}
+
+.servicos2{
+    display: flex;
+    float: left;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: rgb(243, 248, 247);
+    width: 100%;
+    gap: 200px;
+}
+
+.servicos3{
+   
+    background-color: rgba(79, 82, 82, 0.948);
+    width: 100%;
+     
+}
+
+
+
+
+.mensagem{
+    width: 260px;
+    height: 60px;
+}
+
+
+
+.lbl{
+    color: chartreuse;
+}
+
+.card-title{
+    color: cornflowerblue;
+    font-weight: bolder;
+
+}
+
+.card-link{
+   color: chocolate;
+}
+
+
+.card-link:hover{
+ 
+    color: rgb(36, 92, 234);
+
+}
+
+
+.card-body a {
+    cursor: pointer;
+    margin: 12px;
+    
+}
+
+.rodape-contanier{
+    display: flex;
+    background-color: rgb(171, 163, 222);
+    width: 100%;
+   
+}
+
+.mais-imformacoes{
+    padding-left: 100px;
+}
+
+.info p{
+    color: rgb(3, 77, 106);
+    font-size:20px;
+    font-weight: bolder;
+
+}
+
+
+.contato{
+    width: 18%;
+    padding: 10px;
+    background-color: rgba(4, 111, 75, 0.517);
+    border-radius: 10px;
+}
+
+.butao_enviar{
+    box-shadow: 3px 5px 7px black;
+    border-radius: 20px;
+   
+    
+}
+
+.mensagem{
+    width: 100%;
+}
+
+
+.mensagem{
+    width: 100%;
+}
+
+
+.botao-topo img{
+    width: 50px;
+    background-color: rgba(189, 212, 213, 0.7);
+    box-shadow : 5px 6px 10px rgb(93, 104, 103);
+    border-radius: 15px;
+  
+   
+}
+.botao-topo{
+    visibility: hidden;
+    bottom: 80px;
+    text-align: right;
+  
+}
+.botao-topo-mostrar{
+    visibility: visible;
+    animation: fade-in 0.7s ease-in forwards;
+}
+.botao-topo-esconder{
+    animation: fade-out 1s ease-out forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
