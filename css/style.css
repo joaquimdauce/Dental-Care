@@ -200,8 +200,8 @@
 
 
 .btn-primary:hover{
-    background-color: rgb(239, 7, 7);
-    color: cyan;
+    background-color: rgb(7, 239, 38);
+    color: rgb(5, 27, 191);
     text-decoration: underline;
      
 }
@@ -290,9 +290,8 @@
 
 .butao_enviar{
     box-shadow: 3px 5px 7px black;
+    cursor: pointer;
     
-    
-      
 }
 
 .mensagem{
